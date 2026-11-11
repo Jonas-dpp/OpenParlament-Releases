@@ -1,0 +1,25 @@
+version: 2
+updates:
+  # Update Python dependencies
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Groups all Python updates into one single weekly PR
+    groups:
+      python-dependencies:
+        patterns:
+          - "*"
+
+  # Update GitHub Actions workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Groups all GitHub Actions updates into one single weekly PR
+    groups:
+      action-dependencies:
+        patterns:
+          - "*"

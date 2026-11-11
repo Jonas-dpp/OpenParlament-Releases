@@ -1,0 +1,75 @@
+# Python & bytecode caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+uv.lock
+
+# Test caches & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Temporary files & logs
+tmp/
+*.log
+*.swp
+*.swo
+*~
+
+# Data & database files
+*.db
+*.db-shm
+*.db-wal
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/xml/
+data/json/
+data/csv/
+data/dashboard_plots/
+data/dashboard_plots/json/
+data/dashboard_plots/png/
+*/stylometry_clf.plk
+*.parquet
+
+# HuggingFace & model cache
+~/.cache/
+.cache/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets & local environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Image & media exports
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.webm
+*.pdf
+
+# Internal agent workflows
+.jules/

@@ -1,0 +1,179 @@
+{
+  "zwischenruf_sentiment_overall": {
+    "count": 641023,
+    "mean": 0.5451,
+    "std_s": 0.5093,
+    "median": 0.8,
+    "iqr": 0.2128,
+    "min": -0.9844,
+    "max": 0.988
+  },
+  "zwischenruf_audit_extremes": {
+    "top_positive": [
+      {
+        "sentiment_score": 0.9880149960517883,
+        "text": "Zurufe von der AfD: Danke schön!"
+      },
+      {
+        "sentiment_score": 0.987745463848114,
+        "text": "Zuruf von der CDU/CSU: Danke schön! Wir wissen das zu schätzen!"
+      },
+      {
+        "sentiment_score": 0.9871304631233215,
+        "text": "Karsten Hilse [AfD]: Danke! Danke schön! – Weiterer Zuruf von der AfD: Yes we can!"
+      },
+      {
+        "sentiment_score": 0.9867540001869202,
+        "text": "Franz-Josef Holzenkamp [CDU/CSU]: Danke schön! Das hört sich gut an!"
+      },
+      {
+        "sentiment_score": 0.986415684223175,
+        "text": "Uwe Schulz [AfD]: Das wäre das Beste! Gute Idee!"
+      }
+    ],
+    "top_negative": [
+      {
+        "sentiment_score": -0.9843670725822449,
+        "text": "Enak Ferlemann [CDU/CSU]: Schade! Das ist sehr schade!"
+      },
+      {
+        "sentiment_score": -0.9814305901527405,
+        "text": "Reinhard Houben [FDP]: Das ist leider falsch! Die Spanier haben eine andere Schienenbreite!"
+      },
+      {
+        "sentiment_score": -0.9799571633338928,
+        "text": "Lisa Badum [BÜNDNIS 90/DIE GRÜNEN]: Die Herleitung ist so schlecht! Sie haben gerade komplett argumentativ hergeleitet, dass wir das Bundesamt brauchen!"
+      },
+      {
+        "sentiment_score": -0.978925883769989,
+        "text": "Alexander Hoffmann [CDU/CSU]: Das ist falsch! Das ist die Unwahrheit!"
+      },
+      {
+        "sentiment_score": -0.9789133667945862,
+        "text": "Carsten Schneider [Erfurt] [SPD]: Das ist schade! Ein großer Verlust!"
+      }
+    ]
+  },
+  "zwischenruf_sentiment_per_wp": {
+    "WP_18": {
+      "count": 135656,
+      "mean": 0.5612,
+      "std_s": 0.4996,
+      "median": 0.8,
+      "iqr": 0.1557,
+      "min": -0.9788,
+      "max": 0.9868
+    },
+    "WP_19": {
+      "count": 196653,
+      "mean": 0.57,
+      "std_s": 0.493,
+      "median": 0.8,
+      "iqr": 0.1236,
+      "min": -0.9814,
+      "max": 0.988
+    },
+    "WP_20": {
+      "count": 209825,
+      "mean": 0.5137,
+      "std_s": 0.531,
+      "median": 0.8,
+      "iqr": 0.2594,
+      "min": -0.9844,
+      "max": 0.9877
+    },
+    "WP_21": {
+      "count": 98889,
+      "mean": 0.54,
+      "std_s": 0.5037,
+      "median": 0.8,
+      "iqr": 0.2391,
+      "min": -0.98,
+      "max": 0.98
+    }
+  },
+  "speech_sentiment_per_faction": {
+    "AfD": {
+      "count": 9315,
+      "mean": -0.0694,
+      "std_s": 0.7395,
+      "median": -0.5409,
+      "iqr": 1.6,
+      "min": -0.9771,
+      "max": 0.9419
+    },
+    "BÜNDNIS 90/DIE GRÜNEN": {
+      "count": 11312,
+      "mean": 0.1491,
+      "std_s": 0.7267,
+      "median": 0.6322,
+      "iqr": 1.4782,
+      "min": -0.966,
+      "max": 0.969
+    },
+    "CDU/CSU": {
+      "count": 24408,
+      "mean": 0.2712,
+      "std_s": 0.699,
+      "median": 0.8,
+      "iqr": 1.4048,
+      "min": -0.9648,
+      "max": 0.9818
+    },
+    "DIE LINKE": {
+      "count": 8313,
+      "mean": -0.0075,
+      "std_s": 0.7466,
+      "median": -0.4894,
+      "iqr": 1.5761,
+      "min": -0.9669,
+      "max": 0.9437
+    },
+    "Die Linke": {
+      "count": 1009,
+      "mean": -0.179,
+      "std_s": 0.7107,
+      "median": -0.6073,
+      "iqr": 1.5473,
+      "min": -0.9689,
+      "max": 0.931
+    },
+    "FDP": {
+      "count": 6223,
+      "mean": 0.2169,
+      "std_s": 0.7096,
+      "median": 0.719,
+      "iqr": 1.4322,
+      "min": -0.9758,
+      "max": 0.9811
+    },
+    "Fraktionslos": {
+      "count": 333,
+      "mean": 0.0987,
+      "std_s": 0.7,
+      "median": 0.5048,
+      "iqr": 1.4677,
+      "min": -0.9662,
+      "max": 0.9471
+    },
+    "SPD": {
+      "count": 16945,
+      "mean": 0.3054,
+      "std_s": 0.6886,
+      "median": 0.8,
+      "iqr": 1.3694,
+      "min": -0.9725,
+      "max": 0.9768
+    },
+    "fraktionslos": {
+      "count": 223,
+      "mean": 0.0938,
+      "std_s": 0.7287,
+      "median": 0.5224,
+      "iqr": 1.5054,
+      "min": -0.9207,
+      "max": 0.9304
+    }
+  },
+  "speech_complexity_error": "No module named 'src'"
+}

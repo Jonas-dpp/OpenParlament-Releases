@@ -1,0 +1,3 @@
+"""
+Precomputing test package.
+"""

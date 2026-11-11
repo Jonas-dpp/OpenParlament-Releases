@@ -1,0 +1,3 @@
+"""
+Streamlit application test package.
+"""

@@ -1,0 +1,8 @@
+{
+  "keyword_trend_seconds_max": 5.0,
+  "multi_wp_keyword_trend_seconds_max": 8.0,
+  "parser_parse_file_seconds_max": 4.0,
+  "scraper_probe_50_sessions_seconds_max": 5.0,
+  "nlp_100_rows_seconds_max": 20.0,
+  "memory_peak_mb_max": 512
+}
